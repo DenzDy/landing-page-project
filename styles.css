@@ -32,8 +32,6 @@ header{
     padding: 5em 0 10em 0;
 }
 
-
-
 .container.bg-blue .text-container h1{
     font-size: 48px;
     font-weight: 900;
@@ -66,9 +64,6 @@ header{
     color: #E5E7EB;
 }
 
-
-
-
 .nav .logo{
     font-size: 24px;
     font-weight: 900;
@@ -85,3 +80,111 @@ ul{
     font-size: 18px;
 }
 
+.container.bg-white.info{
+    padding: 3em 0 6em 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container.bg-white.info .card-container{
+    display: flex;
+    gap: 4em;
+}
+
+.container.bg-white.info .img{
+    width: 180px;
+    height: 180px;
+    border: 0.3em solid #3882F6;
+    border-radius: 1em;
+    margin-bottom: 0.6em;
+}
+
+.container.bg-white.info h1{
+    color: #1f2937;
+    font-weight: 900;
+    font-size: 36px;
+    margin-bottom: 1.5em;
+}
+
+.container.bg-white.info p{
+    text-align: center;
+    font-size: 18px;
+    color: rgb(63, 63, 63);
+}
+
+.bg-gray{
+    background-color: #E5E7EB;
+}
+
+.container.bg-gray{
+    padding: 9em 0 7em 0;
+}
+
+.container.bg-gray .text-container{
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.container.bg-gray p{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.container.bg-gray h4{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.container.bg-white.call{
+    padding: 5em;
+}
+
+.container.bg-white.call .call-card{
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 0.5em;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3em 5em;
+}
+
+.container.bg-white.call h3{
+    font-size: 24px;
+    color: white;
+}
+
+.container.bg-white.call p{
+    font-size: 18px;
+    color: white;
+}
+
+.container.bg-white.call button{
+    height: fit-content;
+    font-size: 18px;
+    font-weight: 700;
+    border: 0.15em solid white;
+    color: white;
+    background-color: #3882F6;
+    padding: 0.3em 1.75em;
+    border-radius: 0.4em;
+}
+footer{
+    padding: 3.25em 0;
+    background-color: #1F2937;
+}
+footer h1{
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+}
