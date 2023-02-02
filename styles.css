@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-header{
+.nav{
     background-color: #1f2937;
     color: white;
     display: flex;
@@ -15,7 +15,70 @@ header{
 
 }
 
-header .logo{
+.bg-blue{
+    background-color:#1f2937;
+}
+
+.container.bg-blue{
+    display: flex;
+    justify-content: center;
+    padding: 110px;
+}
+
+.content-container.bg-blue{
+    display: flex;
+    justify-content: center;
+    gap: 155px;
+}
+
+.content-container.bg-blue .text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 500px;
+    box-sizing: border-box;
+    padding-right: 50px;
+    height: 250px;
+}
+
+.content-container.bg-blue .text-container h1{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.content-container.bg-blue .text-container p{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.content-container.bg-blue .text-container button{
+    background-color: #3882F6;
+    width: fit-content;
+    border: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 35px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.content-container.bg-blue .img{
+    width: 600px;
+    height: 250px;
+    background-color: #6d747e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-container.bg-blue .img .placeholder-text{
+    color: white;
+}
+
+
+
+.nav .logo{
     font-size: 24px;
     font-weight: 900;
 }
